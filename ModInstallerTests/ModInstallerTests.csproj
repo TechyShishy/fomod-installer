@@ -5,6 +5,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <IsPublishable>False</IsPublishable>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\FomodInstaller.Interface\FomodInstaller.Interface.csproj" />
