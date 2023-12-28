@@ -67,7 +67,7 @@ async function main() {
   try {
     const buildType = debugBuild ? 'Debug' : 'Release';
     await fsExtra.remove(path.join(__dirname, 'dist'));
-    const args = ['publish', 'ModInstallerIPC', '-c', buildType, '--no-self-contained', '-r', 'linux-x64', '-o', 'dist'];
+    const args = ['publish', 'ModInstallerIPC', '-c', buildType, '--no-self-contained', '-r', 'win-x64', '-o', 'dist'];
     if (!debugBuild) {
       args.push('/p:DebugType=None', '/p:DebugSymbols=false');
     }
